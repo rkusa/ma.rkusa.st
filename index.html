@@ -1,12 +1,22 @@
----
-layout: default
-title: Recent Posts
----
-
-<ul>
-  {% for post in site.posts do %}
-  <li>
-    {{ post.date | date_to_string }} <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>
-  {% endfor %}
-</ul>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ma.rkusa.st</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <section id="content">
+    <h1>Markus Ast</h1>
+    <ul class="social-links">
+      <li><a href="https://github.com/rkusa" class="icon-github"></a></li>
+      <li><a href="https://twitter.com/brainafk" class="icon-twitter"></a></li>
+      <li><a href="https://www.facebook.com/markus.ast" class="icon-facebook"></a></li>
+      <li><a href="https://plus.google.com/117316027727038342714" class="icon-google-plus"></a></li>
+      <li><a href="http://www.linkedin.com/profile/view?id=293595256" class="icon-linkedin"></a></li>
+      <li><a href="http://blog.ma.rkusa.st" class="icon-pen"></a></li>
+    </ul>
+  </section>
+</body>
+</html>

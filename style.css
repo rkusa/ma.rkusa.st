@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300);
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  background-color: #FCFBF9;
+}
+
+h1 {
+/*  unicode-bidi: bidi-override;
+  direction: rtl;
+*/ 
+  font-size: 3em;
+  margin-bottom: 0.4em;
+  color: #111;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot');
+  src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf') format('truetype'),
+    url('fonts/icomoon.woff') format('woff'),
+    url('fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class*="icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e600";
+}
+.icon-twitter:before {
+  content: "\e601";
+}
+.icon-github:before {
+  content: "\e602";
+}
+.icon-linkedin:before {
+  content: "\e603";
+}
+.icon-google-plus:before {
+  content: "\e604";
+}
+.icon-pen:before {
+  content: "\e605";
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.social-links a {
+  font-size: 1.8em;
+  display: block;
+  text-decoration: none;
+  padding: 0.4em;
+  color: #555;
+  background-color: #F3EFEC;
+  border-radius: 0.2em;
+}
+
+.social-links a:hover {
+  color: white;
+}
+
+a.icon-facebook:hover {
+  background-color: #3b5998;
+}
+
+a.icon-twitter:hover {
+  background-color: #22ABF3;
+}
+
+a.icon-github:hover {
+  background-color: #F9F9F9;
+  color: black;
+}
+
+a.icon-google-plus:hover {
+  background-color: #D84D32;
+}
+
+a.icon-linkedin:hover {
+  background-color: #1575B9;
+}
+
+a.icon-pen:hover {
+  background-color: #242628;
+  color: #9EACAD;
+}
+
+#content {
+  width: 512px;
+  margin: auto;
+  padding-top: 5%;
+}
