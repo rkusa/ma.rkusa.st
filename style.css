@@ -101,7 +101,7 @@ a:hover .icon-twitter {
 
 a:hover .icon-github {
   background-color: #F9F9F9;
-  color: black;
+  color: black !important;
 }
 
 a:hover .icon-google-plus {
