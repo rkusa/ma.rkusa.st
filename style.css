@@ -72,41 +72,47 @@ h1 {
 }
 
 .social-links a {
-  font-size: 1.8em;
-  display: block;
   text-decoration: none;
-  padding: 0.4em;
   color: #555;
+}
+
+.social-links [class*="icon-"] {
+  font-size: 1.8em;
+  padding: 0.4em;
   background-color: #F3EFEC;
   border-radius: 0.2em;
 }
 
-.social-links a:hover {
+.social-links .label {
+  display: none;
+}
+
+.social-links a:hover [class*="icon-"] {
   color: white;
 }
 
-a.icon-facebook:hover {
+a:hover .icon-facebook {
   background-color: #3b5998;
 }
 
-a.icon-twitter:hover {
+a:hover .icon-twitter {
   background-color: #22ABF3;
 }
 
-a.icon-github:hover {
+a:hover .icon-github {
   background-color: #F9F9F9;
   color: black;
 }
 
-a.icon-google-plus:hover {
+a:hover .icon-google-plus {
   background-color: #D84D32;
 }
 
-a.icon-linkedin:hover {
+a:hover .icon-linkedin {
   background-color: #1575B9;
 }
 
-a.icon-ghost:hover {
+a:hover .icon-ghost {
   background-color: #242628;
   color: #9EACAD;
 }
@@ -115,4 +121,52 @@ a.icon-ghost:hover {
   width: 512px;
   margin: auto;
   padding-top: 5%;
+}
+
+@media (max-width: 640px) { 
+  #content {
+    width: auto;
+    padding-top: 0;
+  }
+
+  .social-links li {
+    display: block;
+    margin-bottom: 2em;
+  }
+
+  .social-links .label {
+    display: inline;
+    font-size: 1.6em;
+    padding-left: 0.4em;
+  }
+
+  .social-links  [class*="icon-"] {
+    color: white;
+  }
+
+  .icon-facebook {
+    background-color: #3b5998 !important;
+  }
+
+   .icon-twitter {
+    background-color: #22ABF3 !important;
+  }
+
+   .icon-github {
+    background-color: #F9F9F9 !important;
+    color: black !important;
+  }
+
+   .icon-google-plus {
+    background-color: #D84D32 !important;
+  }
+
+   .icon-linkedin {
+    background-color: #1575B9 !important;
+  }
+
+   .icon-ghost {
+    background-color: #242628 !important;
+    color: #9EACAD !important;
+  }
 }
