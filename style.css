@@ -9,7 +9,7 @@ body {
 h1 {
 /*  unicode-bidi: bidi-override;
   direction: rtl;
-*/ 
+*/
   font-size: 3em;
   margin-bottom: 0.4em;
   color: #111;
@@ -59,6 +59,9 @@ h1 {
 }
 .icon-ghost:before {
   content: "\e01d";
+}
+.icon-key:before {
+	content: "\e605";
 }
 
 .social-links {
@@ -117,13 +120,18 @@ a:hover .icon-ghost {
   color: #9EACAD;
 }
 
+a:hover .icon-key {
+  background-color: #363636;
+  color: #fe8547 !important;
+}
+
 #content {
   width: 512px;
   margin: auto;
   padding-top: 5%;
 }
 
-@media (max-width: 640px) { 
+@media (max-width: 640px) {
   #content {
     width: auto;
     padding-top: 0;
