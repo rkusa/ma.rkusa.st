@@ -28,7 +28,7 @@ h1 {
   font-style: normal;
 }
 
-[class*="icon-"] {
+[class*="ic-"] {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -42,85 +42,85 @@ h1 {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-facebook:before {
+.ic-facebook:before {
   content: "\e600";
 }
-.icon-twitter:before {
+.ic-twitter:before {
   content: "\e601";
 }
-.icon-github:before {
+.ic-github:before {
   content: "\e602";
 }
-.icon-linkedin:before {
+.ic-linkedin:before {
   content: "\e603";
 }
-.icon-google-plus:before {
+.ic-google-plus:before {
   content: "\e604";
 }
-.icon-ghost:before {
+.ic-ghost:before {
   content: "\e01d";
 }
-.icon-key:before {
+.ic-key:before {
 	content: "\e605";
 }
 
-.social-links {
+.links {
   list-style-type: none;
   padding: 0;
 }
 
-.social-links li {
+.links li {
   display: inline-block;
   margin-right: 1em;
 }
 
-.social-links a {
+.links a {
   text-decoration: none;
   color: #555;
 }
 
-.social-links [class*="icon-"] {
+.links [class*="ic-"] {
   font-size: 1.8em;
   padding: 0.4em;
   background-color: #F3EFEC;
   border-radius: 0.2em;
 }
 
-.social-links .label {
+.links .label {
   display: none;
 }
 
-.social-links a:hover [class*="icon-"] {
+.links a:hover [class*="ic-"] {
   color: white;
 }
 
-a:hover .icon-facebook {
+a:hover .ic-facebook {
   background-color: #3b5998;
 }
 
-a:hover .icon-twitter {
+a:hover .ic-twitter {
   background-color: #22ABF3;
 }
 
-a:hover .icon-github {
+a:hover .ic-github {
   background-color: #F9F9F9;
   color: black !important;
 }
 
-a:hover .icon-google-plus {
+a:hover .ic-google-plus {
   background-color: #D84D32;
 }
 
-a:hover .icon-linkedin {
+a:hover .ic-linkedin {
   background-color: #1575B9;
 }
 
-a:hover .icon-ghost {
+a:hover .ic-ghost {
   background-color: #242628;
   color: #9EACAD;
 }
 
-a:hover .icon-key {
+a:hover .ic-key {
   background-color: #363636;
   color: #fe8547 !important;
 }
@@ -137,43 +137,43 @@ a:hover .icon-key {
     padding-top: 0;
   }
 
-  .social-links li {
+  .links li {
     display: block;
     margin-bottom: 2em;
   }
 
-  .social-links .label {
+  .links .label {
     display: inline;
     font-size: 1.6em;
     padding-left: 0.4em;
   }
 
-  .social-links  [class*="icon-"] {
+  .links  [class*="ic-"] {
     color: white;
   }
 
-  .icon-facebook {
+  .ic-facebook {
     background-color: #3b5998 !important;
   }
 
-   .icon-twitter {
+  .ic-twitter {
     background-color: #22ABF3 !important;
   }
 
-   .icon-github {
+  .ic-github {
     background-color: #F9F9F9 !important;
     color: black !important;
   }
 
-   .icon-google-plus {
+  .ic-google-plus {
     background-color: #D84D32 !important;
   }
 
-   .icon-linkedin {
+  .ic-linkedin {
     background-color: #1575B9 !important;
   }
 
-   .icon-ghost {
+  .ic-ghost {
     background-color: #242628 !important;
     color: #9EACAD !important;
   }
